@@ -1,0 +1,20 @@
+{
+  "name": "iteris_back_iteris",
+  "version": "1.0.0",
+  "description": "Desafio back sobre sistema de cartas",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walmir-Ag/Iteris-desafio-back.git"
+  },
+  "author": "Walmir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walmir-Ag/Iteris-desafio-back/issues"
+  },
+  "homepage": "https://github.com/Walmir-Ag/Iteris-desafio-back#readme"
+}
