@@ -12,6 +12,14 @@ const cartas = db.define('cartas',{
         type: Sequelize.DataTypes.STRING,
         allowNull: fals
     },
+    type: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
+    attributes: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    }, 
 
 });
 
