@@ -28,7 +28,15 @@ const cartas = db.define('cartas',{
         type: Sequelize.DataTypes.STRING,
         allowNull: false
     },
-
+    defense: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
+    special_attack: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
+    
 });
 
 module.exports = cartas;
