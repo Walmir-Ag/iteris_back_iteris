@@ -8,4 +8,4 @@ const criandoCartasController = async(req,res) =>{
     });
     return res.json({carta: novaCarta});
 }
-
+module.exports = criandoCartasController;
