@@ -10,7 +10,7 @@ const cartas = db.define('cartas',{
     },  
     name: {
         type: Sequelize.DataTypes.STRING,
-        allowNull: fals
+        allowNull: false
     },
     type: {
         type: Sequelize.DataTypes.STRING,
@@ -40,10 +40,10 @@ const cartas = db.define('cartas',{
         type: Sequelize.DataTypes.STRING,
         allowNull: false
     },
-    attributes: {
+    speed: {
         type: Sequelize.DataTypes.STRING,
         allowNull: false
-    }, 
+    }
 });
 
 module.exports = cartas;
