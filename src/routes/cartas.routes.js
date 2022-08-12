@@ -1,11 +1,11 @@
-const express = require("express");const express = require("express");
-const chamandoUsuarioApelidoController = require("../controllers/cartas/acumularCartasController");
-const criandoUsuarioController = require("../controllers/cartas/cadastraCartasController");
-const deletandoUsuarioController = require("../controllers/cartas/compararCartasController")
-const mudandoUsuarioController = require("../controllers/cartas/pegarCartaController");
-const mudandoUsuarioController = require("../controllers//cartas/pegarListaDeCartaControoller");
+const express = require("express");
+const  = require("../controllers/cartas/acumularCartasController");
+const  = require("../controllers/cartas/cadastraCartasController");
+const  = require("../controllers/cartas/compararCartasController");
+const  = require("../controllers/cartas/pegarCartaController");
+const  = require("../controllers//cartas/pegarListaDeCartaControoller");
 
-const usuarioRoute = express.Router();
+const cartasRoute = express.Router();
 
 usuarioRoute.post("/usuario", criandoUsuarioController);
 
