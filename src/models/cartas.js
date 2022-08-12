@@ -20,6 +20,14 @@ const cartas = db.define('cartas',{
         type: Sequelize.DataTypes.STRING,
         allowNull: false
     }, 
+    hp: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
+    attack: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
 
 });
 
