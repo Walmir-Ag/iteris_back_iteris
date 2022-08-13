@@ -1,13 +1,10 @@
 require('dotenv/config')
 const express = require('express')
-const usuarioRoute = require('../src/routes/usuario.routes')
 const cartasRoute = require('./routes/cartas.routes')
 const app = express()
-const port = 3303
+const port = 8089;
 
 app.use(express.json())
-
-app.use(usuarioRoute);
 
 app.use(cartasRoute);
 
