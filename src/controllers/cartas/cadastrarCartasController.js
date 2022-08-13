@@ -13,6 +13,6 @@ const cadastrarCartasController = async(req,res) =>{
         special_defense, 
         speed
     });
-    return res.json(200).json({carta: novaCarta});
+    return res.status(201).json({carta: novaCarta});
 }
-module.exports = cadastrarCartasController;
+module.exports = cadastrarCartasController
