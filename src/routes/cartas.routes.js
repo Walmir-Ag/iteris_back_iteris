@@ -7,12 +7,11 @@ const  = require("../controllers//cartas/pegarListaDeCartaControoller");
 
 const cartasRoute = express.Router();
 
-usuarioRoute.post("/usuario", criandoUsuarioController);
+cartasRoute.post("/cartas", cadastrarCartasController);
 
-usuarioRoute.get("/usuario/:apelido", chamandoUsuarioApelidoController);
+cartasRoute.get("/usuario/:", chamandoUsuarioApelidoController);
 
-usuarioRoute.put("/usuario/:id", mudandoUsuarioController);
+cartasRoute.get("/cartas/")
 
-usuarioRoute.delete('/usuario/:id',deletandoUsuarioController);
 
-module.exports = usuarioRoute;
+module.exports = cartasRoute;
