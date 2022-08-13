@@ -17,27 +17,27 @@ const cartas = db.define('cartas',{
         allowNull: false
     },
     hp: {
-        type: Sequelize.DataTypes.STRING,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     },
     attack: {
-        type: Sequelize.DataTypes.STRING,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     },
     defense: {
-        type: Sequelize.DataTypes.STRING,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     },
     special_attack: {
-        type: Sequelize.DataTypes.STRING,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     },
     special_defense: {
-        type: Sequelize.DataTypes.STRING,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     },
     speed: {
-        type: Sequelize.DataTypes.STRING,
+        type: Sequelize.DataTypes.INTEGER   ,
         allowNull: false
     }
 });
