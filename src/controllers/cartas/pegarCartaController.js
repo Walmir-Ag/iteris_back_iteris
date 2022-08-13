@@ -1,7 +1,7 @@
 const pegarCartaController = async (req, res) => {
-  carta = require ("../../models/cartas")
+  let carta = require ("../../models/cartas")
   const Name = req.params.name
-  const cartaPeloNome = await carta.findOne({ where: { name: Name } });
-  return res.status(200).json({ cartaPeloNome: cartaPeloNome }
+  const cartaPeloNome = await carta.findOne({ where: { pegar: Name } });
+  return res.status(200).json({ pegar: cartaPeloNome }
 )};
 module.exports = pegarCartaController; 
