@@ -1,14 +1,14 @@
 const Sequelize = require('sequelize');
 const db = require("../connection/db");
 
-const cartas = db.define('cartas',{
+const cartas = db.define('carta',{
     id: {
         type: Sequelize.DataTypes.INTEGER,
         allowNull: false,
-        primaryKey: true,
-        autoIncrement: true
+        autoIncrement: true,
+        primaryKey: true
     },  
-    name: {
+    nome: {
         type: Sequelize.DataTypes.STRING,
         allowNull: false
     },
@@ -37,9 +37,8 @@ const cartas = db.define('cartas',{
         allowNull: false
     },
     speed: {
-        type: Sequelize.DataTypes.INTEGER   ,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     }
 });
-
 module.exports = cartas;
