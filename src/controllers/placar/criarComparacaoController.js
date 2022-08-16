@@ -1,4 +1,4 @@
-const criarComparacaoPkController = async (req, res) => {
+/*const criarComparacaoPkController = async (req, res) => {
     const db = require('../../connection/db')
     let carta = require("../../models/carta")
     let placar = require("../../models/placar")
@@ -99,5 +99,5 @@ r
    
     module.exports = criarComparacaoPkController;
 
-
+*/
 
