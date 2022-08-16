@@ -1,3 +1,4 @@
+/*
 const Sequelize = require ('sequelize');
 const db = require ("../connection/db");
 
@@ -22,12 +23,7 @@ const placar = db.define('comparacoes', {
     },
     derrotas: {
         type: Sequelize.DataTypes.INTEGER 
+        allowNull: false
     }
-    }
-/*
-cartas.HasMany(placar,
-    {foreignKey: "idCartas"})
-
-placar.BelongTo(cartas)
-module.exports = placar;
+})
 */
